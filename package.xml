@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.webservice-krug.nivoSlider" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Nivo-Slider BurningBord integration</packagename>
+		<packagedescription><![CDATA[A Dashboard-Box which intigrates the Novio-Slider into Burning Board.]]></packagedescription>
+		<packagename language="de">Nivo-Slider BurningBord Integration</packagename>
+		<packagedescription language="de"><![CDATA[Eine Dashboard-Box,  welche den Nivo-Slider ins Burnung Board integriert.]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2014-12-03</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Lars Krug]]></author>
+		<authorurl>http://webservice-krug.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.8">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- configuration -->
+		<instruction type="dashboardBox">dashboardBox.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="userOption">userOption.xml</instruction>
+
+		<!-- files -->
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">template.tar</instruction>
+	</instructions>
+</package>
