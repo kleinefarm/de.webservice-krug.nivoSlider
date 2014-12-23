@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.nivoSlider"><![CDATA[Nivo-Slider]]></item>
+		<item name="wcf.acp.group.option.user.nivoSlider.canDisable"><![CDATA[Can disable Nivo-Slider]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.nivo_slider"><![CDATA[Nivo-Slider]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general"><![CDATA[Add pictures]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general.show"><![CDATA[Appearance]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general.img1"><![CDATA[Picture 1]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general.img2"><![CDATA[Picture 2]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general.img3"><![CDATA[Picture 3]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general.img4"><![CDATA[Picture 4]]></item>
+		<item name="wcf.acp.option.category.nivo_slider.general.img5"><![CDATA[Picture 5]]></item>
+		<item name="wcf.acp.option.nivo_box_title"><![CDATA[Title]]></item>
+		<item name="wcf.acp.option.nivo_box_title.description"><![CDATA[This title is the headline for the Dashboard-Box]]></item>
+		<item name="wcf.acp.option.nivo_box_description_1"><![CDATA[Description]]></item>
+		<item name="wcf.acp.option.nivo_box_description_2"><![CDATA[Description]]></item>
+		<item name="wcf.acp.option.nivo_box_description_3"><![CDATA[Description]]></item>
+		<item name="wcf.acp.option.nivo_box_description_4"><![CDATA[Description]]></item>
+		<item name="wcf.acp.option.nivo_box_description_5"><![CDATA[Description]]></item>
+		<item name="wcf.acp.option.nivo_box_img_1"><![CDATA[Picture (internally)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_2"><![CDATA[Picture (internally)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_3"><![CDATA[Picture (internally)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_4"><![CDATA[Picture (internally)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_5"><![CDATA[Picture (internally)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_1.description"><![CDATA[After uploading the images to the folder wcf/images/nivo-slider simply type in the name picture and the file extension (like test.png) here.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_2.description"><![CDATA[After uploading the images to the folder wcf/images/nivo-slider simply type in the name picture and the file extension (like test.png) here.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_3.description"><![CDATA[After uploading the images to the folder wcf/images/nivo-slider simply type in the name picture and the file extension (like test.png) here.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_4.description"><![CDATA[After uploading the images to the folder wcf/images/nivo-slider simply type in the name picture and the file extension (like test.png) here.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_5.description"><![CDATA[After uploading the images to the folder wcf/images/nivo-slider simply type in the name picture and the file extension (like test.png) here.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_1"><![CDATA[Picture (external)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_2"><![CDATA[Picture (external)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_3"><![CDATA[Picture (external)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_4"><![CDATA[Picture (external)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_5"><![CDATA[Picture (external)]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_1.description"><![CDATA[If the picture is hosted external, you have to fill this field.]]></item>
+	    <item name="wcf.acp.option.nivo_box_img_extern_2.description"><![CDATA[If the picture is hosted external, you have to fill this field.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_3.description"><![CDATA[If the picture is hosted external, you have to fill this field.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_4.description"><![CDATA[If the picture is hosted external, you have to fill this field.]]></item>
+		<item name="wcf.acp.option.nivo_box_img_extern_5.description"><![CDATA[If the picture is hosted external, you have to fill this field.]]></item>
+		<item name="wcf.acp.option.nivo_box_link_1"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.nivo_box_link_2"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.nivo_box_link_3"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.nivo_box_link_4"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.nivo_box_link_5"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.nivo_box_effect"><![CDATA[Effect]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.slideInRight"><![CDATA[Slide to the right]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.slideInLeft"><![CDATA[Slide to the left]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.boxRandom"><![CDATA[Box random]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.boxRain"><![CDATA[Box Rain]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.boxRainReverse"><![CDATA[Box Rain Reverse]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.boxRainGrow"><![CDATA[Box Rain Grow]]></item>
+		<item name="wcf.acp.option.nivo_box_effect.boxRainGrowReverse"><![CDATA[Box Rain Grow Reverse]]></item>
+		<item name="wcf.acp.option.nivo_box_slices"><![CDATA[Slices]]></item>
+		<item name="wcf.acp.option.nivo_box_slices.description"><![CDATA[This option has only an effect if a slice effect has been selected.]]></item>
+		<item name="wcf.acp.option.nivo_box_boxCols"><![CDATA[Box Cols]]></item>
+		<item name="wcf.acp.option.nivo_box_boxCols.description"><![CDATA[This option has only an effect if a box animation has been selected.]]></item>
+		<item name="wcf.acp.option.nivo_box_boxRows"><![CDATA[Box Rows]]></item>
+		<item name="wcf.acp.option.nivo_box_boxRows.description"><![CDATA[This option has only an effect if a box animation has been selected.]]></item>
+		<item name="wcf.acp.option.nivo_box_animSpeed"><![CDATA[Animation speed]]></item>
+		<item name="wcf.acp.option.nivo_box_pauseTime"><![CDATA[Refresh interval]]></item>
+		<item name="wcf.acp.option.nivo_box_directionNav"><![CDATA[Back / Forward Controls]]></item>
+		<item name="wcf.acp.option.nivo_box_controlNav"><![CDATA[Navigationpoints]]></item>
+		<item name="wcf.acp.option.nivo_box_pauseOnHover"><![CDATA[Stop animation on mouse over]]></item>
+		<item name="wcf.acp.option.nivo_box_randomStart"><![CDATA[Start animation with a random picture.]]></item>
+	</category>
+	<category name="wcf.dashboard">
+		<item name="wcf.dashboard.box.de.webservice-krug.nivoSlider">{NIVO_BOX_TITLE}</item>
+	</category>
+		<category name="wcf.user.option">
+		<item name="wcf.user.option.enableNivoSlider"><![CDATA[Show Nivo-Slider]]></item>
+	</category>
+</language>
