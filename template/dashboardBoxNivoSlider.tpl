@@ -1,9 +1,4 @@
-{if $__wcf->getUser()->getUserOption('enableNivoSlider')}
 {hascontent}
-<fieldset class="dashboardBox">
-	
-	<legend>{NIVO_BOX_TITLE}</legend>
-	
 	<ul class="sidebarBoxList">
 		{content}
 			<li class="box24">
@@ -45,4 +40,3 @@
 </script>
 </fieldset>
 {/hascontent}
-{/if}
