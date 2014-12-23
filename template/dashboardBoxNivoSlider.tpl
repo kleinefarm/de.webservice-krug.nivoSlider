@@ -17,26 +17,4 @@
 			</li>
 		{/content}
 	</ul>
-
-<script data-relocate="true" src='{$__wcf->getPath()}js/WCF.nivo.slider.pack.js'></script>
-
-<script data-relocate="true">
-	//<![CDATA[
-		$(window).load(function() {
-			$('#slider').nivoSlider({
-				effect: '{NIVO_BOX_EFFECT}',
-				slices:{NIVO_BOX_SLICES},
-				boxCols:{NIVO_BOX_BOXCOLS},
-				boxRows:{NIVO_BOX_BOXROWS},
-				animSpeed:{NIVO_BOX_ANIMSPEED},
-				pauseTime:{NIVO_BOX_PAUSETIME},
-				directionNav:{NIVO_BOX_DIRECTIONNAV},
-				controlNav:{NIVO_BOX_CONTROLNAV},
-				pauseOnHover:{NIVO_BOX_PAUSEONHOVER},
-				randomStart: {NIVO_BOX_RANDOMSTART},
-			});
-		});
-	//]]>
-</script>
-</fieldset>
 {/hascontent}
