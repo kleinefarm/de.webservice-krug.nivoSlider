@@ -3,9 +3,9 @@ namespace wcf\system\dashboard\box;
 use wcf\system\WCF;
 
 /**
- * Dashboard box for registration button.
+ * Dashboard box for Nivo-Slider.
  * 
- * @author	Marcel Werk, Lars Krug
+ * @autho	 Lars Krug
  * @copyright	2001-2014 WoltLab GmbH
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  * @package	com.woltlab.wcf
@@ -14,14 +14,10 @@ use wcf\system\WCF;
  */
 class NivoSliderDashboardBox extends AbstractSidebarDashboardBox {
 	/**
-	 * @see	\wcf\system\dashboard\box\AbstractContentDashboardBox::$templateName
-	 */
-	public $templateName = 'dashboardBoxNivoSlider';
-	
-	/**
 	 * @see	\wcf\system\dashboard\box\AbstractContentDashboardBox::render()
 	 */
 	protected function render() {
-		return (true);
+		if (WCF::getUser()->getUserOption('enableNivoSlider'))
+		return WCF::getTPL()->fetch('dashboardBoxNivoSlider');
 	}
 }
