@@ -5,7 +5,7 @@ use wcf\system\WCF;
 /**
  * Dashboard box for Nivo-Slider.
  * 
- * @autho	 Lars Krug
+ * @author	 Lars Krug
  * @copyright	2001-2014 WoltLab GmbH
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  * @package	com.woltlab.wcf
